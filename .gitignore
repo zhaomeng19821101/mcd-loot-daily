@@ -1,0 +1,14 @@
+# 不提交运行时数据（避免误提交券/积分等个人数据）
+data/*.json
+report/*.md
+
+# 任何真实凭证都不入库（配置只用环境变量占位符）
+mcp-config.json
+*.token
+.env
+
+# 常见系统噪音
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

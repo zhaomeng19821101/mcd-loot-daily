@@ -1,0 +1,3 @@
+# 运行时由 WorkBuddy 调用 MCP 工具后落盘：
+#   time.json  calendar.json  available.json  mine.json  account.json
+# 拉取失败的板块写入 {"__error": "..."} 占位，build_report.py 会跳过并标注。
